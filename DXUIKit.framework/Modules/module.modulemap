@@ -1,0 +1,11 @@
+framework module DXUIKit {
+  umbrella header "DXUIKit.h"
+
+  export *
+  module * { export * }
+}
+
+module DXUIKit.Swift {
+    header "DXUIKit-Swift.h"
+    requires objc
+}
