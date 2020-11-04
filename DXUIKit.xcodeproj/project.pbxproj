@@ -18,8 +18,11 @@
 		A481E3072552971600DC7E31 /* DXBaseXibButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E2FD2552971600DC7E31 /* DXBaseXibButton.swift */; };
 		A481E3082552971600DC7E31 /* UIAutoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E2FE2552971600DC7E31 /* UIAutoHeader.swift */; };
 		A481E3092552971600DC7E31 /* UIScreenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E2FF2552971600DC7E31 /* UIScreenHeader.swift */; };
-		A481E3102552973900DC7E31 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A481E30E2552973900DC7E31 /* Media.xcassets */; };
 		A481E3112552973900DC7E31 /* DXNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A481E30F2552973900DC7E31 /* DXNavigationBar.xib */; };
+		A481E36B2552B16900DC7E31 /* x_return_ic_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E3672552B16900DC7E31 /* x_return_ic_n@2x.png */; };
+		A481E36C2552B16900DC7E31 /* x_return_ic_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E3682552B16900DC7E31 /* x_return_ic_n@3x.png */; };
+		A481E36D2552B16900DC7E31 /* x_return_ic_w@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E3692552B16900DC7E31 /* x_return_ic_w@3x.png */; };
+		A481E36E2552B16900DC7E31 /* x_return_ic_w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E36A2552B16900DC7E31 /* x_return_ic_w@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +39,15 @@
 		A481E2FD2552971600DC7E31 /* DXBaseXibButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXBaseXibButton.swift; sourceTree = "<group>"; };
 		A481E2FE2552971600DC7E31 /* UIAutoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAutoHeader.swift; sourceTree = "<group>"; };
 		A481E2FF2552971600DC7E31 /* UIScreenHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenHeader.swift; sourceTree = "<group>"; };
-		A481E30E2552973900DC7E31 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A481E30F2552973900DC7E31 /* DXNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXNavigationBar.xib; sourceTree = "<group>"; };
 		A481E32A2552981400DC7E31 /* Pods_DXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A481E32E2552981F00DC7E31 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A481E3322552982300DC7E31 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A481E3492552AFF300DC7E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A481E3672552B16900DC7E31 /* x_return_ic_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_n@2x.png"; sourceTree = "<group>"; };
+		A481E3682552B16900DC7E31 /* x_return_ic_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_n@3x.png"; sourceTree = "<group>"; };
+		A481E3692552B16900DC7E31 /* x_return_ic_w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_w@3x.png"; sourceTree = "<group>"; };
+		A481E36A2552B16900DC7E31 /* x_return_ic_w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_w@2x.png"; sourceTree = "<group>"; };
 		A482F91C254FF9940067A2D2 /* DXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED64FF6C8BA70D4B34D6276C /* Pods-DXUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXUIKit.release.xcconfig"; path = "Target Support Files/Pods-DXUIKit/Pods-DXUIKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,10 +111,21 @@
 		A481E30D2552973900DC7E31 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A481E30E2552973900DC7E31 /* Media.xcassets */,
 				A481E30F2552973900DC7E31 /* DXNavigationBar.xib */,
+				A481E3672552B16900DC7E31 /* x_return_ic_n@2x.png */,
+				A481E3682552B16900DC7E31 /* x_return_ic_n@3x.png */,
+				A481E36A2552B16900DC7E31 /* x_return_ic_w@2x.png */,
+				A481E3692552B16900DC7E31 /* x_return_ic_w@3x.png */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A481E3482552AFF300DC7E31 /* DXUIKitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				A481E3492552AFF300DC7E31 /* Info.plist */,
+			);
+			path = DXUIKitBundle;
 			sourceTree = "<group>";
 		};
 		A482F912254FF9940067A2D2 = {
@@ -116,6 +134,7 @@
 				A481E30D2552973900DC7E31 /* Source */,
 				A481E2F52552971600DC7E31 /* Core */,
 				A481E2EC2552970100DC7E31 /* Base */,
+				A481E3482552AFF300DC7E31 /* DXUIKitBundle */,
 				A482F91D254FF9940067A2D2 /* Products */,
 				4FC0159AC818CC0779D23B82 /* Pods */,
 				3180C6A096925E3B5E46C547 /* Frameworks */,
@@ -199,8 +218,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A481E36B2552B16900DC7E31 /* x_return_ic_n@2x.png in Resources */,
+				A481E36E2552B16900DC7E31 /* x_return_ic_w@2x.png in Resources */,
 				A481E3112552973900DC7E31 /* DXNavigationBar.xib in Resources */,
-				A481E3102552973900DC7E31 /* Media.xcassets in Resources */,
+				A481E36D2552B16900DC7E31 /* x_return_ic_w@3x.png in Resources */,
+				A481E36C2552B16900DC7E31 /* x_return_ic_n@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +410,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Base/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -423,6 +446,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Base/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
