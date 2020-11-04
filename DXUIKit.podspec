@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DXUIKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of DXUIKitSDK"
   spec.description  = "desc"
   spec.homepage     = "http://github.com/ilmeeself/DXUIKit"
