@@ -1,18 +1,28 @@
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "DXUIKit"
-  spec.version      = "0.0.4"
-  spec.summary      = "A short description of DXUIKitSDK"
-  spec.description  = "desc"
-  spec.homepage     = "http://github.com/ilmeeself/DXUIKit"
-  spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  spec.author             = { "ilmeeself" => "ilmeeself@163.com" }
-  spec.source       = { :git => "http://github.com/ilmeeself/DXUIKit.git", :tag => "#{spec.version}" }
-  spec.platform     = :ios, "10.0"
-  #spec.source_files = "Core/*.swift"
-  #头文件
-  # 依赖库
-  spec.dependency   "SnapKit" , "~> 4.0.0"
+  	s.name        = 'DXUIKit'
+
+  	s.version     = '0.0.5'
+
+  	s.license     = 'MIT'
+
+  	s.summary     = 'desc for dx kit'
+
+  	s.homepage    = 'https://github.com/ilmeeself/DXUIKit'
+
+  	s.author      = { 'ilmeeself' => 'ilmeeself@163.com' }
+
+	s.source      = { :git => "https://github.com/ilmeeself/DXUIKit.git", :tag => "#{s.version}" }
+
+	s.dependency  "SnapKit" , "~> 4.0.0"
+
+	s.swift_version = '5.0'
+
+	s.ios.deployment_target = '10.0'
+
+	s.source_files = 'Core/*.swift'
+  	
+
+  	
 
 end
