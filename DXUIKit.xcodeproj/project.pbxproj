@@ -30,7 +30,6 @@
 		A482F94A254FF9CD0067A2D2 /* UIAutoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482F93F254FF9CD0067A2D2 /* UIAutoHeader.swift */; };
 		A482F94B254FF9CD0067A2D2 /* UIScreenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482F940254FF9CD0067A2D2 /* UIScreenHeader.swift */; };
 		A482F959254FFC6D0067A2D2 /* DXUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A482F91F254FF9940067A2D2 /* DXUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A482FA522550EDB60067A2D2 /* DXKitBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A482FA512550EDB60067A2D2 /* DXKitBundle.bundle */; };
 		A482FA78255103820067A2D2 /* DXNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A482FA77255103820067A2D2 /* DXNavigationBar.xib */; };
 		A482FA89255129220067A2D2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A482FA88255129220067A2D2 /* Media.xcassets */; };
 		A482FAC925513F910067A2D2 /* DXBaseXibView.swift in Headers */ = {isa = PBXBuildFile; fileRef = A482F937254FF9CD0067A2D2 /* DXBaseXibView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,8 +53,6 @@
 		A482F93E254FF9CD0067A2D2 /* UILabel+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ex.swift"; sourceTree = "<group>"; };
 		A482F93F254FF9CD0067A2D2 /* UIAutoHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAutoHeader.swift; sourceTree = "<group>"; };
 		A482F940254FF9CD0067A2D2 /* UIScreenHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenHeader.swift; sourceTree = "<group>"; };
-		A482FA512550EDB60067A2D2 /* DXKitBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DXKitBundle.bundle; sourceTree = "<group>"; };
-		A482FA6C2550FAE40067A2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A482FA77255103820067A2D2 /* DXNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXNavigationBar.xib; sourceTree = "<group>"; };
 		A482FA88255129220067A2D2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A482FAE5255149990067A2D2 /* DXBaseXibLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXBaseXibLabel.swift; sourceTree = "<group>"; };
@@ -96,9 +93,8 @@
 		A482F912254FF9940067A2D2 = {
 			isa = PBXGroup;
 			children = (
-				A482FA502550EDA60067A2D2 /* Resource */,
-				A482F91E254FF9940067A2D2 /* DXUIKit */,
-				A482FA6B2550FAE40067A2D2 /* DXBundle */,
+				A482FA502550EDA60067A2D2 /* source */,
+				A482F91E254FF9940067A2D2 /* core */,
 				A482F91D254FF9940067A2D2 /* Products */,
 				4FC0159AC818CC0779D23B82 /* Pods */,
 				3180C6A096925E3B5E46C547 /* Frameworks */,
@@ -113,17 +109,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A482F91E254FF9940067A2D2 /* DXUIKit */ = {
+		A482F91E254FF9940067A2D2 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				A482F94D254FFA300067A2D2 /* ImageResource */,
 				A482F941254FF9CD0067A2D2 /* CustomVCs */,
 				A482F928254FF9CD0067A2D2 /* CustomViews */,
 				A482F93A254FF9CD0067A2D2 /* Support */,
 				A482F91F254FF9940067A2D2 /* DXUIKit.h */,
 				A482F920254FF9940067A2D2 /* Info.plist */,
 			);
-			path = DXUIKit;
+			path = core;
 			sourceTree = "<group>";
 		};
 		A482F928254FF9CD0067A2D2 /* CustomViews */ = {
@@ -276,28 +271,12 @@
 			path = DXViewController;
 			sourceTree = "<group>";
 		};
-		A482F94D254FFA300067A2D2 /* ImageResource */ = {
+		A482FA502550EDA60067A2D2 /* source */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ImageResource;
-			sourceTree = "<group>";
-		};
-		A482FA502550EDA60067A2D2 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				A482FA512550EDB60067A2D2 /* DXKitBundle.bundle */,
 				A482FA88255129220067A2D2 /* Media.xcassets */,
 			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		A482FA6B2550FAE40067A2D2 /* DXBundle */ = {
-			isa = PBXGroup;
-			children = (
-				A482FA6C2550FAE40067A2D2 /* Info.plist */,
-			);
-			path = DXBundle;
+			path = source;
 			sourceTree = "<group>";
 		};
 		A482FAE2255149340067A2D2 /* DXBaseUIKitViews */ = {
@@ -402,7 +381,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A482FA522550EDB60067A2D2 /* DXKitBundle.bundle in Resources */,
 				A482FA89255129220067A2D2 /* Media.xcassets in Resources */,
 				A482FA78255103820067A2D2 /* DXNavigationBar.xib in Resources */,
 			);
@@ -610,7 +588,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = DXUIKit/Info.plist;
+				INFOPLIST_FILE = core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -645,7 +623,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = DXUIKit/Info.plist;
+				INFOPLIST_FILE = core/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
