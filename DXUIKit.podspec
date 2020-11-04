@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "ilmeeself" => "ilmeeself@163.com" }
   spec.source       = { :git => "http://github.com/ilmeeself/DXUIKit.git", :tag => "#{spec.version}" }
   spec.platform     = :ios, "10.0"
-  spec.source_files = "DXUIKit/*.{h,m,swift}"
+  #spec.source_files = "DXUIKit/*.{h,m,swift}"
   #头文件
   # 依赖库
   spec.dependency   "SnapKit" , "~> 4.0.0"
