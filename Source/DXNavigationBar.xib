@@ -14,10 +14,10 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70V-Ah-c1u" customClass="DXBaseXibView" customModule="DXUIKit" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70V-Ah-c1u">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeC-1L-xEz" customClass="DXBaseXibButton" customModule="DXUIKit" customModuleProvider="target">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeC-1L-xEz">
                             <rect key="frame" x="10" y="50" width="30" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="30" id="jyq-RF-A4N"/>
@@ -33,7 +33,7 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTI-2S-7oU" customClass="DXBaseXibButton" customModule="DXUIKit" customModuleProvider="target">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTI-2S-7oU">
                             <rect key="frame" x="328" y="51" width="30" height="29"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <state key="normal" title="right">
@@ -45,7 +45,7 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuG-vm-vGa" customClass="DXBaseXibButton" customModule="DXUIKit" customModuleProvider="target">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuG-vm-vGa">
                             <rect key="frame" x="122.5" y="46" width="130" height="34"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="130" id="cez-9E-B56">
