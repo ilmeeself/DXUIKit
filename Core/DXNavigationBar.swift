@@ -10,18 +10,11 @@ import UIKit
 
 public class DXNavigationBar: DXBaseXibView {
 
-    @IBOutlet public weak var contentView: UIView!
-    @IBOutlet public weak var leftItem: UIButton!
-    @IBOutlet public weak var rightItem: UIButton!
-    @IBOutlet public weak var mainTitle: UIButton!
-    
+    @IBOutlet public weak var contentView: DXBaseXibView!
+    @IBOutlet public weak var leftItem: DXBaseXibButton!
+    @IBOutlet public weak var rightItem: DXBaseXibButton!
+    @IBOutlet public weak var mainTitle: DXBaseXibButton!
     public var contentBgImageView : UIImageView!
-    
-    public class func loadSelfXib() -> DXNavigationBar{
-        
-        return DXBundleManager.DXBundle().loadNibNamed("DXNavigationBar", owner: nil, options: nil)?.last as! DXNavigationBar
-        
-    }
     
     internal override func setupView() {
         contentBgImageView = UIImageView()
@@ -30,7 +23,5 @@ public class DXNavigationBar: DXBaseXibView {
             make.left.bottom.right.top.equalTo(0)
         }
     }
-    
-    
     
 }

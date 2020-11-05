@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   	s.name        = 'DXUIKit'
 
-  	s.version     = '0.0.15'
+  	s.version     = '0.0.18'
 
   	s.license     = 'MIT'
 
@@ -22,11 +22,9 @@ Pod::Spec.new do |s|
 
 	s.source_files = 'Core/*.swift'
 
-	s.static_framework = false
+	s.resources = 'Source/*.{xib,png}'
 	
-	s.resource_bundles = {
-    		'Source' => ['Source/*.{png,xib}']
-  	}
+	
   	
 
 end
