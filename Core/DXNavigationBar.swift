@@ -17,6 +17,11 @@ public class DXNavigationBar: DXBaseXibView {
     
     public var contentBgImageView : UIImageView!
     
+    public class func loadSelfXib() -> DXNavigationBar{
+        
+        return DXBundleManager.DXBundle().loadNibNamed("DXNavigationBar", owner: nil, options: nil)?.last as! DXNavigationBar
+        
+    }
     
     internal override func setupView() {
         contentBgImageView = UIImageView()

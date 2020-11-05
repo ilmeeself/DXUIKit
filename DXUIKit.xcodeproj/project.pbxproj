@@ -23,6 +23,7 @@
 		A481E36C2552B16900DC7E31 /* x_return_ic_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E3682552B16900DC7E31 /* x_return_ic_n@3x.png */; };
 		A481E36D2552B16900DC7E31 /* x_return_ic_w@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E3692552B16900DC7E31 /* x_return_ic_w@3x.png */; };
 		A481E36E2552B16900DC7E31 /* x_return_ic_w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A481E36A2552B16900DC7E31 /* x_return_ic_w@2x.png */; };
+		A4AFA25F2553A2CD00C8C1DE /* DXBundleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AFA25E2553A2CD00C8C1DE /* DXBundleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,12 +44,12 @@
 		A481E32A2552981400DC7E31 /* Pods_DXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A481E32E2552981F00DC7E31 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A481E3322552982300DC7E31 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A481E3492552AFF300DC7E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A481E3672552B16900DC7E31 /* x_return_ic_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_n@2x.png"; sourceTree = "<group>"; };
 		A481E3682552B16900DC7E31 /* x_return_ic_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_n@3x.png"; sourceTree = "<group>"; };
 		A481E3692552B16900DC7E31 /* x_return_ic_w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_w@3x.png"; sourceTree = "<group>"; };
 		A481E36A2552B16900DC7E31 /* x_return_ic_w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_return_ic_w@2x.png"; sourceTree = "<group>"; };
 		A482F91C254FF9940067A2D2 /* DXUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DXUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AFA25E2553A2CD00C8C1DE /* DXBundleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DXBundleManager.swift; sourceTree = "<group>"; };
 		ED64FF6C8BA70D4B34D6276C /* Pods-DXUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXUIKit.release.xcconfig"; path = "Target Support Files/Pods-DXUIKit/Pods-DXUIKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +105,7 @@
 				A481E2FD2552971600DC7E31 /* DXBaseXibButton.swift */,
 				A481E2FE2552971600DC7E31 /* UIAutoHeader.swift */,
 				A481E2FF2552971600DC7E31 /* UIScreenHeader.swift */,
+				A4AFA25E2553A2CD00C8C1DE /* DXBundleManager.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -120,21 +122,12 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		A481E3482552AFF300DC7E31 /* DXUIKitBundle */ = {
-			isa = PBXGroup;
-			children = (
-				A481E3492552AFF300DC7E31 /* Info.plist */,
-			);
-			path = DXUIKitBundle;
-			sourceTree = "<group>";
-		};
 		A482F912254FF9940067A2D2 = {
 			isa = PBXGroup;
 			children = (
 				A481E30D2552973900DC7E31 /* Source */,
 				A481E2F52552971600DC7E31 /* Core */,
 				A481E2EC2552970100DC7E31 /* Base */,
-				A481E3482552AFF300DC7E31 /* DXUIKitBundle */,
 				A482F91D254FF9940067A2D2 /* Products */,
 				4FC0159AC818CC0779D23B82 /* Pods */,
 				3180C6A096925E3B5E46C547 /* Frameworks */,
@@ -263,6 +256,7 @@
 				A481E3002552971600DC7E31 /* DXBaseXibView.swift in Sources */,
 				A481E3022552971600DC7E31 /* UIButton+Ex.swift in Sources */,
 				A481E3052552971600DC7E31 /* DXBaseXibLabel.swift in Sources */,
+				A4AFA25F2553A2CD00C8C1DE /* DXBundleManager.swift in Sources */,
 				A481E3032552971600DC7E31 /* UIXib+Ex.swift in Sources */,
 				A481E3012552971600DC7E31 /* UIView+Ex.swift in Sources */,
 				A481E3072552971600DC7E31 /* DXBaseXibButton.swift in Sources */,

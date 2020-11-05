@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   	s.name        = 'DXUIKit'
 
-  	s.version     = '0.0.8'
+  	s.version     = '0.0.9'
 
   	s.license     = 'MIT'
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 	
 	s.resource_bundles = {
-    		'Source' => ['Source/*.{png,xib}']
+    		'Source' => ['Source/*.{png}']
   	}
   	
 
