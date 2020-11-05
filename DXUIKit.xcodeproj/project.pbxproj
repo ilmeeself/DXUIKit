@@ -95,17 +95,9 @@
 		A481E2F52552971600DC7E31 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A481E2F62552971600DC7E31 /* DXBaseXibView.swift */,
-				A481E2F72552971600DC7E31 /* UIView+Ex.swift */,
-				A481E2F82552971600DC7E31 /* UIButton+Ex.swift */,
-				A481E2F92552971600DC7E31 /* UIXib+Ex.swift */,
-				A481E2FA2552971600DC7E31 /* UILabel+Ex.swift */,
-				A481E2FB2552971600DC7E31 /* DXBaseXibLabel.swift */,
 				A481E2FC2552971600DC7E31 /* DXNavigationBar.swift */,
-				A481E2FD2552971600DC7E31 /* DXBaseXibButton.swift */,
-				A481E2FE2552971600DC7E31 /* UIAutoHeader.swift */,
-				A481E2FF2552971600DC7E31 /* UIScreenHeader.swift */,
-				A4AFA25E2553A2CD00C8C1DE /* DXBundleManager.swift */,
+				A4AFA27F2553D4CF00C8C1DE /* DXSupport */,
+				A4AFA27D2553D48800C8C1DE /* DXBaseViewCompents */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -140,6 +132,30 @@
 				A482F91C254FF9940067A2D2 /* DXUIKit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AFA27D2553D48800C8C1DE /* DXBaseViewCompents */ = {
+			isa = PBXGroup;
+			children = (
+				A481E2F62552971600DC7E31 /* DXBaseXibView.swift */,
+				A481E2FD2552971600DC7E31 /* DXBaseXibButton.swift */,
+				A481E2FB2552971600DC7E31 /* DXBaseXibLabel.swift */,
+			);
+			name = DXBaseViewCompents;
+			sourceTree = "<group>";
+		};
+		A4AFA27F2553D4CF00C8C1DE /* DXSupport */ = {
+			isa = PBXGroup;
+			children = (
+				A481E2F92552971600DC7E31 /* UIXib+Ex.swift */,
+				A481E2F72552971600DC7E31 /* UIView+Ex.swift */,
+				A481E2FA2552971600DC7E31 /* UILabel+Ex.swift */,
+				A481E2F82552971600DC7E31 /* UIButton+Ex.swift */,
+				A481E2FE2552971600DC7E31 /* UIAutoHeader.swift */,
+				A481E2FF2552971600DC7E31 /* UIScreenHeader.swift */,
+				A4AFA25E2553A2CD00C8C1DE /* DXBundleManager.swift */,
+			);
+			name = DXSupport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
