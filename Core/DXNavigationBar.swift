@@ -10,10 +10,10 @@ import UIKit
 
 public class DXNavigationBar: DXBaseXibView {
 
-    @IBOutlet public weak var contentView: UIView!
-    @IBOutlet public weak var leftItem: UIButton!
-    @IBOutlet public weak var rightItem: UIButton!
-    @IBOutlet public weak var mainTitle: UIButton!
+    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var leftItem: UIButton!
+    @IBOutlet weak var rightItem: UIButton!
+    @IBOutlet weak var mainTitle: UIButton!
     
     public var contentBgImageView : UIImageView!
     
