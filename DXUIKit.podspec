@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   	s.name        = 'DXUIKit'
 
-  	s.version     = '0.0.12'
+  	s.version     = '0.0.14'
 
   	s.license     = 'MIT'
 
